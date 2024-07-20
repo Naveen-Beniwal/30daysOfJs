@@ -4,43 +4,54 @@
 
 let num1 = 8;
 let num2 = 4;
-
-console.log("sum=", num1 + num2); //task 1
+//task 1
+console.log("sum=", num1 + num2);
 // output is : sum= 12
 
-console.log("differnce=", num1 - num2); //task 2
+//task 2
+console.log("differnce=", num1 - num2);
 // output is : differnce= 4
 
-console.log("multiplication=", num1 * num2); //task 3
+//task 3
+console.log("multiplication=", num1 * num2);
 // output is : multiplication= 32
 
-console.log("division=", num1 / num2); //task 4
+//task 4
+console.log("division=", num1 / num2);
 // output is : division= 2
 
-console.log("remainder=", num1 % num2); //task 5
+//task 5
+console.log("remainder=", num1 % num2);
 // output is : remainder= 0
 
 //Activity 2: assignment operators
 
+//task 6
 num1 += 5;
-console.log("new num=", num1); //task 6
+console.log("new num=", num1);
 // output is : new num= 13
 
+//task 7
 num1 -= 5;
-console.log("num1=", num1); //task 7
+console.log("num1=", num1);
 // output is : num1= 8
 
 //Activity 3: comparison operators
 
-console.log("Is num1 greater than num2: ", num1 > num2); //task8
+//task8
+console.log("Is num1 greater than num2: ", num1 > num2);
 // output is : Is num1 greater than num2:  true
 console.log("Is num1 smaller than num2: ", num1 < num2);
 // output is : Is num1 smaller than num2:  false
-console.log("Is 5 greater than 5: ", 5 >= 5); //task9
+
+//task9
+console.log("Is 5 greater than 5: ", 5 >= 5);
 // output is : Is 5 greater than 5:  true
 console.log("Is 5 lesser than 4: ", 5 <= 4);
 // output is : Is 5 lesser than 4:  false
-console.log("Is null==undefined: ", null == undefined); //task10
+
+//task10
+console.log("Is null==undefined: ", null == undefined);
 // output is : Is null==undefined:  true
 
 console.log("Is null===undefined: ", null === undefined);
@@ -48,12 +59,16 @@ console.log("Is null===undefined: ", null === undefined);
 
 //Activity 4: logic operators
 
-console.log("5<8<7: ", 5 < 8 && 8 < 7); //task 11
+//task 11
+console.log("5<8<7: ", 5 < 8 && 8 < 7);
 // output is : 5<8<7:  false
-console.log("5<8 or 5<4 : ", 5 < 8 || 5 < 4); //task 12
+
+//task 12
+console.log("5<8 or 5<4 : ", 5 < 8 || 5 < 4);
 // output is :5<8 or 5<4 :  true
 
-console.log("opposite to true is: ", !true); //task 13
+//task 13
+console.log("opposite to true is: ", !true);
 // output :opposite to true is:  false
 
 //Activity 5: ternary operator
