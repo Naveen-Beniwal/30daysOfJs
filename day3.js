@@ -2,7 +2,7 @@
 // Activity 1 : If-Else Statements
 
 // Task 1: Check if a number is positive, negative, or zero, and log the result to the console.
-function checkNumberType(num) {
+function NumberType(num) {
   if (num > 0) {
     console.log("Positive");
   } else if (num < 0) {
@@ -13,12 +13,12 @@ function checkNumberType(num) {
 }
 
 // Outputs
-checkNumberType(6); // Positive
-checkNumberType(0); // Zero
-checkNumberType(-2); // Negative
+NumberType(6); // Positive
+NumberType(0); // Zero
+NumberType(-2); // Negative
 
 // Task 2: Check if a person is eligible to vote (age >= 18) and log the result to the console.
-function checkVotingStatus(age) {
+function votingStatus(age) {
   if (age >= 18) {
     console.log("Eligible to vote");
   } else {
@@ -27,13 +27,13 @@ function checkVotingStatus(age) {
 }
 
 // Outputs
-checkVotingStatus(22); // Eligible to vote
-checkVotingStatus(15); // Not eligible to vote
+votingStatus(22); // Eligible to vote
+votingStatus(15); // Not eligible to vote
 
 // Activity 2 : Nested If-Else statements
 
 // Task 3: Find the largest of three numbers using nested if-else statements.
-function findLargestNumber(a, b, c) {
+function largestNumber(a, b, c) {
   if (a >= b && a >= c) {
     console.log(a);
   } else if (b >= a && b >= c) {
@@ -44,14 +44,14 @@ function findLargestNumber(a, b, c) {
 }
 
 // Outputs
-findLargestNumber(1, 2, 3); // 3
-findLargestNumber(8, 3, 4); // 8
-findLargestNumber(7, 9, 6); // 9
+largestNumber(1, 2, 3); // 3
+largestNumber(8, 3, 4); // 8
+largestNumber(7, 9, 6); // 9
 
 // Activity 4 : Switch case
 
 // Task 4: Determine the day of the week based on a number (1-7) and log the day name to the console.
-function getDayOfWeek(number) {
+function dayOfWeek(number) {
   switch (number) {
     case 1:
       console.log("Monday");
@@ -81,12 +81,12 @@ function getDayOfWeek(number) {
 }
 
 // Outputs
-getDayOfWeek(2); // Tuesday
-getDayOfWeek(7); // Sunday
-getDayOfWeek(10); // Invalid day
+dayOfWeek(2); // Tuesday
+dayOfWeek(7); // Sunday
+dayOfWeek(10); // Invalid day
 
 // Task 5: Assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
-function assignLetterGrade(score) {
+function assignGrade(score) {
   switch (true) {
     case score >= 90:
       console.log("A");
@@ -110,25 +110,25 @@ function assignLetterGrade(score) {
 }
 
 // Outputs
-assignLetterGrade(82); // B
-assignLetterGrade(72); // C
-assignLetterGrade(59); // F
+assignGrade(82); // B
+assignGrade(72); // C
+assignGrade(59); // F
 
 // Conditional Ternary Operators
 
 // Task 6: Check if a number is even or odd and log the result to the console.
-function checkEvenOrOdd(num) {
+function evenOrOdd(num) {
   console.log(num % 2 === 0 ? "Even" : "Odd");
 }
 
 // Outputs
-checkEvenOrOdd(8); // Even
-checkEvenOrOdd(5); // Odd
+evenOrOdd(8); // Even
+evenOrOdd(5); // Odd
 
 // Combining conditions
 
 // Task 7: Check if a year is a leap year using multiple conditions and log the result to the console.
-function checkLeapYearStatus(year) {
+function checkLeapYear(year) {
   if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
     console.log("Leap year");
   } else {
@@ -137,15 +137,15 @@ function checkLeapYearStatus(year) {
 }
 
 // Outputs
-checkLeapYearStatus(2020); // Leap year
-checkLeapYearStatus(2021); // Not a leap year
-checkLeapYearStatus(1904); // leap year
-checkLeapYearStatus(2000); // Leap year
+checkLeapYear(2020); // Leap year
+checkLeapYear(2021); // Not a leap year
+checkLeapYear(1904); // leap year
+checkLeapYear(2000); // Leap year
 
 // Feature Requests
 
 // 1. Check if a number is positive, negative, or zero and log the result to the console.
-function determineNumberType(num) {
+function NumberType(num) {
   if (num > 0) {
     console.log("Positive");
   } else if (num < 0) {
@@ -156,9 +156,9 @@ function determineNumberType(num) {
 }
 
 // Outputs
-determineNumberType(5); // Positive
-determineNumberType(-3); // Negative
-determineNumberType(0); // Zero
+NumberType(5); // Positive
+NumberType(-3); // Negative
+NumberType(0); // Zero
 
 // 2. Check if a person is eligible to vote (age >= 18) and log the result to the console.
 function isEligibleToVote(age) {
@@ -174,7 +174,7 @@ isEligibleToVote(25); // Eligible to vote
 isEligibleToVote(17); // Not eligible to vote
 
 // 3. Determine the day of the week based on a number (1-7) and log the day name to the console.
-function getDayName(number) {
+function dayName(number) {
   switch (number) {
     case 1:
       console.log("Monday");
@@ -204,9 +204,9 @@ function getDayName(number) {
 }
 
 // Outputs
-getDayName(5); // Friday
-getDayName(2); // Tuesday
-getDayName(0); // Invalid day
+dayName(5); // Friday
+dayName(2); // Tuesday
+dayName(0); // Invalid day
 
 // 4. Assign a grade ('A', 'B', 'C', 'D', 'F') based on a score and log the grade to the console.
 function assignGrade(score) {
