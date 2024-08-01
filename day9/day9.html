@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bgcolor {
+        background: blue;
+      }
+      .sze {
+        font-size: xx-large;
+      }
+      .container {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid black;
+        height: 500px;
+        width: 350px;
+        flex-direction: column;
+      }
+      ul li {
+        height: 30px;
+        width: 150px;
+        border: 2px solid black;
+        background-color: grey;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img id="image" src=".." alt="hello" />
+      <h1 id="heading">This is Heading</h1>
+
+      <div class="ul-box">
+        <ul>
+          <li>First item</li>
+          <li>second item</li>
+          <li>third item</li>
+        </ul>
+        <p id="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+          qui!
+        </p>
+        <button id="btn">Change</button>
+      </div>
+    </div>
+    <script src="day9.js"></script>
+  </body>
+</html>
